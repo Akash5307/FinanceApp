@@ -1,6 +1,7 @@
-import BoxHeader from "@/components/BoxHeader";
-import DashboardBox from "@/components/DashboardBox";
+import React from "react";
+import BoxHeader from "../../components/BoxHeader";
 import { useGetKpisQuery } from "@/state/api";
+import DashboardBox from "@/components/DashboardBox";
 import { useTheme } from "@mui/material";
 import { useMemo } from "react";
 import {

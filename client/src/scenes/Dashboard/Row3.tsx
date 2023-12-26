@@ -18,26 +18,6 @@ const Row3 = () => {
   const { data: kpiData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
   const { data: transactionData } = useGetTransactionsQuery();
-
-  // const pieChartData = useMemo(() => {
-  //   if (kpiData) {
-  //     const totalExpenses = kpiData[0].totalExpenses;
-  //     return Object.entries(kpiData[0].expensesByCategory).map(
-  //       ([key, value]) => {
-  //         return [
-  //           {
-  //             name: key,
-  //             value: value,
-  //           },
-  //           {
-  //             name: `${key} of Total`,
-  //             value: totalExpenses - value,
-  //           },
-  //         ];
-  //       }
-  //     );
-  //   }
-  // }, [kpiData]);
   const productColumns = [
     {
       field: "_id",
