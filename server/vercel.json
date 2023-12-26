@@ -12,11 +12,6 @@
         "src": "/(.*)",
         "dest": "index.js"
       }
-    ],
-    "install": {
-      "include": ["**/*"],
-      "dest": "/",
-      "command": "npm install --force"
-    }
+    ]
   }
   
