@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react-jsx",
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -17,7 +18,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
     "types": ["vite/client"]
   },
   "include": ["src"],
