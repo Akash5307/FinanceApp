@@ -6,7 +6,7 @@ import {
 } from "./types";
 
 export const api = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl: `http://localhost:8080` }),
+  baseQuery: fetchBaseQuery({ baseUrl: `https://finance-app-new-chi.vercel.app/` }),
   reducerPath: "main",
   tagTypes: ["Kpis", "Products", "Transactions"],
   endpoints: (build) => ({
