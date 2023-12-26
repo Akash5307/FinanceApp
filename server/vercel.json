@@ -13,10 +13,7 @@
         "dest": "index.js"
       }
     ],
-    "install": {
-      "include": ["**/*"],
-      "dest": "/",
-      "command": "npm install --force"
-    }
+    "installCommand": "npm install",
+    "outputDirectory": "build"
   }
   
